@@ -1,0 +1,63 @@
+a {
+    color: blueviolet;
+    width: 100px;
+}
+
+.menu {
+    text-decoration: none;
+    width: 20%;
+    color: blue;
+    padding: 40px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#hi {
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Jost, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+
+h1 {
+    color: rgb(171, 171, 241);
+}
+
+h2 {
+    color: rgb(165, 231, 245);
+}
+
+h3 {
+    color: rgb(53, 236, 236);
+}
+
+.menu:hover {
+    text-decoration: underline;
+    color: rgb(249, 80, 246);
+}
+
+input:required {
+    color: red;
+}
+
+#hi::first-letter {
+    font-family: Arial, serif;
+
+}
+
+.menu::first-line {
+    width: 20%;
+    color: rgb(84, 25, 35);
+    padding: 40px;
+    font-weight: bolder;
+}
